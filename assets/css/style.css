@@ -68,3 +68,12 @@ nav, a {
     background-color: transparent;
     cursor: pointer;
 }
+
+.btn-nav:hover {
+    background-color: #3030561f;
+}
+
+.btn-nav:active {
+    background-color: #30305649;
+    box-shadow: 0px 0px 15px #ffffff98;
+}
