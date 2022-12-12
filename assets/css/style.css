@@ -33,6 +33,7 @@ header {
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.08em;
+    color: #303056;
     
 }
 
@@ -47,13 +48,29 @@ nav {
     cursor: pointer;
 }
 
-nav, a {
+.nav-link {
     margin-right: 54px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 16px;
     color: #303056;
+    position: relative;
+}
+
+.nav-link:after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    bottom: -3px;
+    left: 0px;
+    position: absolute;
+    background-color: #303056;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover:after {
+    width: 100%;
 }
 
 .btn-nav {
