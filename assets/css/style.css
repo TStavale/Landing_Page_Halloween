@@ -94,3 +94,40 @@ nav {
     background-color: #30305649;
     box-shadow: 0px 0px 15px #ffffff98;
 }
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-left {
+    width: 500px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #303056;
+    margin-top: 150px;
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 78px;
+    line-height: 109%;
+    color: #303056;
+    margin: 18px 0 25px 0;
+}
+
+.text-container-left {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 180%;
+    color: #303056;
+    margin-bottom: 50px;
+}
