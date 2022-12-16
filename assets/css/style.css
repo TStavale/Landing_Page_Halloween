@@ -194,3 +194,55 @@ h1 {
 .btn-ghost:hover {
     color: #303056;
 }
+
+.container-right {
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+.img-main {
+    width: 65%;
+    position: absolute;
+    top: -90px;
+    left: 300px;
+}
+
+.container-right-info {
+    position: absolute;
+    top: 530px;
+    right: 490px;
+
+    padding-right: 20px;
+    border-right: 1px solid #F8D3EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 85px;
+}
+
+.container-right-info:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #F8D3EB;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+}
+
+.container-right-info-text1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    color: #F8F8FD;
+}
+
+.container-right-info-text2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F8F8FD;
+}
+
