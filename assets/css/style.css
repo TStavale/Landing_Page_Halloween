@@ -181,7 +181,8 @@ h1 {
     text-align: center;
     color: #F8F8FD;
     display: block;
-    margin: 12px auto;
+    margin-top: 130px;
+    margin-left: 650px;
     background-image: url('/assets/img/btn-ghost.png');
     background-size: 190px;
     background-color: transparent;
