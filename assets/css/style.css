@@ -102,7 +102,7 @@ section {
 }
 
 .container-left {
-    width: 500px;
+    width: 700px;
 }
 
 h2 {
@@ -204,8 +204,8 @@ h1 {
 .img-main {
     width: 65%;
     position: absolute;
-    top: -90px;
-    left: 300px;
+    top: -30px;
+    left: 230px;
 }
 
 .container-right-info {
@@ -218,6 +218,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: flex-end;
     height: 85px;
 }
 
@@ -232,14 +233,15 @@ h1 {
     top: -8px;
 }
 
-.container-right-info-text1 {
+.container-right-info p:first-child {
     font-weight: 700;
     font-size: 20px;
     line-height: 180%;
     color: #F8F8FD;
+    
 }
 
-.container-right-info-text2 {
+.container-right-info p:last-child {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
