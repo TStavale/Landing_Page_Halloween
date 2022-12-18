@@ -1,0 +1,35 @@
+@media (max-width: 1100px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .container-actions {
+        justify-content: space-evenly;
+    }
+
+    .container-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-main {
+        margin: 50px 0px 50px 20px;
+        width: 80%;
+        
+    }
+
+    .container-right-info {
+        left: auto;
+    }
+
+    
+}
