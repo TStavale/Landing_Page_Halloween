@@ -1,6 +1,7 @@
-@media (max-width: 1100px) {
+@media (max-width: 1500px) {
     body {
         overflow-x: hidden;
+        
     }
 
     nav {
@@ -9,6 +10,10 @@
 
     section {
         flex-direction: column;
+    }
+
+    .container-left {
+        width: 100%;
     }
 
     .container-actions {
@@ -22,14 +27,141 @@
     }
 
     .img-main {
-        margin: 50px 0px 50px 20px;
-        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        left: 0;
         
     }
 
     .container-right-info {
-        left: auto;
+        margin-top: 90px;
+        top: 700px;
+        right: 390px;
     }
 
+    .btn-ghost {
+        margin: 450px auto 0;
+        
+    }
+    
+}
+
+
+@media (max-width: 1100px) {
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    nav {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .container-left {
+        width: 100%;
+    }
+
+    .container-actions {
+        justify-content: space-evenly;
+    }
+
+    .container-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        left: 0;
+        
+    }
+
+    .container-right-info {
+        margin-top: 90px;
+        top: 450px;
+        right: 200px;
+    }
+
+    .btn-ghost {
+        margin: 200px auto 0;
+        
+    }
+    
+}
+
+@media (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+        
+    }
+
+    nav {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .container-left {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .text-container-left {
+        font-size: 1rem;
+    }
+    .container-actions {
+        justify-content: space-evenly;
+        
+    }
+
+    .link-container-actions{
+        font-size: 1rem;
+    }
+
+    .img-arrow {
+        width: 3rem;
+    }
+
+    .container-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        left: 0;
+        
+    }
+
+    .container-right-info {
+        margin-top: 90px;
+        top: 280px;
+        right: 80px;
+    }
+
+    .btn-ghost {
+        margin: 80px auto 0;
+        
+    }
     
 }
